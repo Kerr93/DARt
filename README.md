@@ -1,24 +1,24 @@
 
-###A tool to estimate Instantaneous Reproduction Number(Rt) 
+### A tool to estimate Instantaneous Reproduction Number(Rt) 
 cal_r()provide real-time estimation of time-varying distribution of 
 Rt and infected numbers from a range of epidemic observations (e.g., number of onsets and confirmed cases).
 
-##Usage
+## Usage
 dart = DARt(GT,D_s,Filename)
 
 cal_r()
 
-##Arguments
+## Arguments
 GT: generation time distribution
 
 D_s: delay time distribution
 
 Filename:input file
 
-##References:
+## References:
 This tool is described in the following paper:
 
-##Examples
+## Examples
 
     GT = [0, 0, 0.165720874545241, 0.226350757019051, 0.245007574714227, 0.213515210247327,
           0.149405583474155]  # 1:7; non-zero index 3:7
