@@ -3,6 +3,13 @@
 cal_r()provide real-time estimation of time-varying distribution of 
 Rt and infected numbers from a range of epidemic observations (e.g., number of onsets and confirmed cases).
 
+test DARtTool via https://dsi-dart.shinyapps.io/covidrt/.
+
+
+## Installation
+```{r, eval = FALSE}
+pip install DARtTool
+```
 ## Usage
 dart = DARt(GT,D_s,Filename)
 
@@ -25,3 +32,4 @@ This tool is described in the following paper:
     D_s = [0, 0, 0, 0, 0, 0, 0.0996906, 0.1130266, 0.1143032, 0.1069238, 0.0937167999999999]
     dart = DARt(GT=GT, D_s=D_s, filename='uk_report_1011.csv')
     dart.cal_r()
+
