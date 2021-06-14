@@ -6,7 +6,7 @@
 
 **DARt: Estimate Real-time Infection and the Time-varying Epidemiological Parameter R<sub>t**
 
-Online platform: https://dsi-dart.shinyapps.io/covidrt/.
+Online platform: https://dsi-dart.shinyapps.io/dsi-covidv4/.
 
 ## Installation
 ```{r, eval = FALSE}
