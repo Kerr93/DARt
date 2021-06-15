@@ -36,6 +36,27 @@ dart.cal_r()
 ```
 
 Estimating the underlying infection cases and Rt curve via smoothing is substantially computationally demanding than using filter but can provide reliable estimate.
+    
+## Input file example
+    
+Input file should contain date and corresponding
+observations, the date should be sorted from the oldest to the latest. The first observation number should be nonzero.
+
+See 'Example\_input.csv':
+
+
+    date	    newCasesByPublishDate
+    2021/1/1	53285
+    2021/1/2	57725
+    2021/1/3	54990
+    2021/1/4	58784
+    2021/1/5	60916
+    2021/1/6	62322
+    2021/1/7	52618
+    2021/1/8	68053
+    2021/1/9	59937
+    2021/1/10	54940
+    ...	        ...
 
 ## Citation
 If you use this tool in your research, please cite our paper.
